@@ -14,6 +14,7 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "prepack": "npm run build",
     "dev": "rollup -c -w",
     "test": "node test/test.js",
     "pretest": "npm run build"
